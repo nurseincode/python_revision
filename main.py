@@ -28,6 +28,37 @@
 # s = 'abc, '
 # print(s.split(','))
 
-s = ['H', 'llo Th', 'r', ' Ev', 'ryon', '']
-print('e'.join(s))
+# s = ['H', 'llo Th', 'r', ' Ev', 'ryon', '']
+# print('e'.join(s))
+
+# control structures
+# if, elif, else conditional statements
+
+# score = 85
+
+# if score >=90:
+#     print("Grade A")
+# elif score >=80:
+#     print("Grade B") # This block will execute
+# else:
+#     print("Grade C")
+
+# loops
+
+# for i in range(3):
+#     print(f"iteration {i}") # for loop iterating through a range
+
+# count = 0
+# while count <3:
+#     print(f"count is {count}")
+#     count +=1 # while loop running until a condition changes
+
+# control flow modifiers
+
+# for num in range(1,6):
+#     if num==3:
+#         continue 
+#     if num==5:
+#         break
+#     print(num) 
 
