@@ -53,6 +53,16 @@
 #     print(f"count is {count}")
 #     count +=1 # while loop running until a condition changes
 
+# Count how many even numbers are in this list
+# numbers = [1, 4, 7, 8, 10, 13]
+# even_count = 0
+
+# for num in numbers:
+#     if num % 2 == 0:
+#         even_count += 1  # Increments ONLY when an even number is found
+
+# print(even_count)  # Output: 3 (for 4, 8, and 10)
+
 # control flow modifiers
 
 # for num in range(1,6):
