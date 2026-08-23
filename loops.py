@@ -34,11 +34,34 @@
 #     else:
 #         print(f'{i} is odd')
 
-for num in range(0,21):
-    print(f'{num} is {'even' if num % 2 == 0 else 'odd'}')
-   
-       
+#  with ternary
+# for num in range(0,21):
+#     print(f'{num} is {'even' if num % 2 == 0 else 'odd'}')
 
+# further refactor w caveat**
+    #   print(f'{num} is {'odd' if num % 2 else 'even'}')
+
+
+# for else
+
+# for i in range(10):
+#     print(i)
+#     if i == 6:
+#         break
+# else:
+#     print('loop finished')
+
+# Output if a number is prime
+
+number = 7
+
+for i in range(2, number):
+    if number % i == 0:
+        print('not a prime')
+        break
+else:
+    print('is prime')
+    
 
 
 
