@@ -53,15 +53,22 @@
 
 # Output if a number is prime
 
-number = 7
+# number = 7
 
-for i in range(2, number):
-    if number % i == 0:
-        print('not a prime')
-        break
-else:
-    print('is prime')
+# for i in range(2, number):
+#     if number % i == 0:
+#         print('not a prime')
+#         break
+# else:
+#     print('is prime')
     
 
 
 
+number = 10
+
+for i in range(2, number):
+    if number % i == 0:
+        print('not a prime')
+    else:
+        print('is prime')
