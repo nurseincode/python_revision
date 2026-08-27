@@ -17,9 +17,12 @@
 
 # greet(name=”Dee”)
 
-def greet(name, age):
+def greet(name, age, country='Kenya'):
     print(f'Hello, {name}! You are {age} years old')
-greet("Dee", 20)
+    print(f'{name} lives in {country}')
+greet(name='Dee', age=20)
+
+greet('Tim', 21, 'Australia')
 
   
 
